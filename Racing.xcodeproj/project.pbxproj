@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28173B01266AAD14009C7184 /* GameStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B00266AAD14009C7184 /* GameStatus.swift */; };
+		28173B04266D3605009C7184 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B03266D3605009C7184 /* GameOver.swift */; };
+		28173B50267F7971009C7184 /* CarsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B4F267F7971009C7184 /* CarsType.swift */; };
+		28173B53267F7A16009C7184 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B52267F7A16009C7184 /* UserSettings.swift */; };
+		28173B57267F7BCB009C7184 /* BarriersType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B56267F7BCB009C7184 /* BarriersType.swift */; };
+		28173B5A267F85EB009C7184 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B59267F85EB009C7184 /* UserDefaultKeys.swift */; };
+		28173B5D267F877E009C7184 /* UserDefaults+keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28173B5C267F877E009C7184 /* UserDefaults+keys.swift */; };
+		2874F19B266297DA0097AC6B /* Dead Space.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2874F19A266297DA0097AC6B /* Dead Space.ttf */; };
+		2874F19F26629C890097AC6B /* UIFont+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874F19E26629C890097AC6B /* UIFont+CustomFonts.swift */; };
+		2899B6BC26484E6800E28070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6BB26484E6800E28070 /* AppDelegate.swift */; };
+		2899B6BE26484E6800E28070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6BD26484E6800E28070 /* SceneDelegate.swift */; };
+		2899B6C026484E6800E28070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6BF26484E6800E28070 /* ViewController.swift */; };
+		2899B6C326484E6800E28070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2899B6C126484E6800E28070 /* Main.storyboard */; };
+		2899B6C526484E6A00E28070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2899B6C426484E6A00E28070 /* Assets.xcassets */; };
+		2899B6C826484E6A00E28070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2899B6C626484E6A00E28070 /* LaunchScreen.storyboard */; };
+		2899B6D126484EFD00E28070 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6D026484EFD00E28070 /* Settings.swift */; };
+		2899B6D426484F1800E28070 /* RecordTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6D326484F1800E28070 /* RecordTable.swift */; };
+		2899B6D726484F2E00E28070 /* GameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899B6D626484F2E00E28070 /* GameStart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28173B00266AAD14009C7184 /* GameStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatus.swift; sourceTree = "<group>"; };
+		28173B03266D3605009C7184 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		28173B4F267F7971009C7184 /* CarsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsType.swift; sourceTree = "<group>"; };
+		28173B52267F7A16009C7184 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		28173B56267F7BCB009C7184 /* BarriersType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarriersType.swift; sourceTree = "<group>"; };
+		28173B59267F85EB009C7184 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		28173B5C267F877E009C7184 /* UserDefaults+keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+keys.swift"; sourceTree = "<group>"; };
+		2874F19A266297DA0097AC6B /* Dead Space.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dead Space.ttf"; sourceTree = "<group>"; };
+		2874F19E26629C890097AC6B /* UIFont+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFonts.swift"; sourceTree = "<group>"; };
+		2899B6B826484E6800E28070 /* Racing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Racing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899B6BB26484E6800E28070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2899B6BD26484E6800E28070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2899B6BF26484E6800E28070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2899B6C226484E6800E28070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2899B6C426484E6A00E28070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2899B6C726484E6A00E28070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2899B6C926484E6A00E28070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2899B6D026484EFD00E28070 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2899B6D326484F1800E28070 /* RecordTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTable.swift; sourceTree = "<group>"; };
+		2899B6D626484F2E00E28070 /* GameStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2899B6B526484E6800E28070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2874F1992662976E0097AC6B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2874F19A266297DA0097AC6B /* Dead Space.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		2899B6AF26484E6800E28070 = {
+			isa = PBXGroup;
+			children = (
+				2899B6BA26484E6800E28070 /* Racing */,
+				2899B6B926484E6800E28070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2899B6B926484E6800E28070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2899B6B826484E6800E28070 /* Racing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2899B6BA26484E6800E28070 /* Racing */ = {
+			isa = PBXGroup;
+			children = (
+				2899B6BB26484E6800E28070 /* AppDelegate.swift */,
+				2899B6BD26484E6800E28070 /* SceneDelegate.swift */,
+				2899B6BF26484E6800E28070 /* ViewController.swift */,
+				2874F19E26629C890097AC6B /* UIFont+CustomFonts.swift */,
+				2874F1992662976E0097AC6B /* fonts */,
+				2899B6C126484E6800E28070 /* Main.storyboard */,
+				2899B6D326484F1800E28070 /* RecordTable.swift */,
+				28173B5C267F877E009C7184 /* UserDefaults+keys.swift */,
+				28173B4F267F7971009C7184 /* CarsType.swift */,
+				28173B56267F7BCB009C7184 /* BarriersType.swift */,
+				28173B59267F85EB009C7184 /* UserDefaultKeys.swift */,
+				28173B52267F7A16009C7184 /* UserSettings.swift */,
+				2899B6D626484F2E00E28070 /* GameStart.swift */,
+				28173B03266D3605009C7184 /* GameOver.swift */,
+				28173B00266AAD14009C7184 /* GameStatus.swift */,
+				2899B6D026484EFD00E28070 /* Settings.swift */,
+				2899B6C426484E6A00E28070 /* Assets.xcassets */,
+				2899B6C626484E6A00E28070 /* LaunchScreen.storyboard */,
+				2899B6C926484E6A00E28070 /* Info.plist */,
+			);
+			path = Racing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2899B6B726484E6800E28070 /* Racing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2899B6CC26484E6A00E28070 /* Build configuration list for PBXNativeTarget "Racing" */;
+			buildPhases = (
+				2899B6B426484E6800E28070 /* Sources */,
+				2899B6B526484E6800E28070 /* Frameworks */,
+				2899B6B626484E6800E28070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Racing;
+			productName = Racing;
+			productReference = 2899B6B826484E6800E28070 /* Racing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2899B6B026484E6800E28070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2899B6B726484E6800E28070 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2899B6B326484E6800E28070 /* Build configuration list for PBXProject "Racing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2899B6AF26484E6800E28070;
+			productRefGroup = 2899B6B926484E6800E28070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2899B6B726484E6800E28070 /* Racing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2899B6B626484E6800E28070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874F19B266297DA0097AC6B /* Dead Space.ttf in Resources */,
+				2899B6C826484E6A00E28070 /* LaunchScreen.storyboard in Resources */,
+				2899B6C526484E6A00E28070 /* Assets.xcassets in Resources */,
+				2899B6C326484E6800E28070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2899B6B426484E6800E28070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28173B57267F7BCB009C7184 /* BarriersType.swift in Sources */,
+				2899B6D726484F2E00E28070 /* GameStart.swift in Sources */,
+				28173B53267F7A16009C7184 /* UserSettings.swift in Sources */,
+				28173B01266AAD14009C7184 /* GameStatus.swift in Sources */,
+				28173B50267F7971009C7184 /* CarsType.swift in Sources */,
+				2899B6C026484E6800E28070 /* ViewController.swift in Sources */,
+				28173B04266D3605009C7184 /* GameOver.swift in Sources */,
+				28173B5D267F877E009C7184 /* UserDefaults+keys.swift in Sources */,
+				2899B6BC26484E6800E28070 /* AppDelegate.swift in Sources */,
+				2899B6D126484EFD00E28070 /* Settings.swift in Sources */,
+				2874F19F26629C890097AC6B /* UIFont+CustomFonts.swift in Sources */,
+				2899B6D426484F1800E28070 /* RecordTable.swift in Sources */,
+				28173B5A267F85EB009C7184 /* UserDefaultKeys.swift in Sources */,
+				2899B6BE26484E6800E28070 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2899B6C126484E6800E28070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2899B6C226484E6800E28070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2899B6C626484E6A00E28070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2899B6C726484E6A00E28070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2899B6CA26484E6A00E28070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2899B6CB26484E6A00E28070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2899B6CD26484E6A00E28070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Racing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2899B6CE26484E6A00E28070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Racing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2899B6B326484E6800E28070 /* Build configuration list for PBXProject "Racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2899B6CA26484E6A00E28070 /* Debug */,
+				2899B6CB26484E6A00E28070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2899B6CC26484E6A00E28070 /* Build configuration list for PBXNativeTarget "Racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2899B6CD26484E6A00E28070 /* Debug */,
+				2899B6CE26484E6A00E28070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2899B6B026484E6800E28070 /* Project object */;
+}
